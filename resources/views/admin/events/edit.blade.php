@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl">
-            Edit Konser
+            Edit Event
         </h2>
     </x-slot>
 
@@ -17,7 +17,7 @@
             @method('PUT')
 
             <div>
-                <label>Nama Konser</label>
+                <label>Nama Event</label>
                 <input
                     type="text"
                     name="title"
@@ -76,7 +76,7 @@
                 type="submit"
                 class="bg-blue-600 text-white px-4 py-2 rounded"
             >
-                Update Konser
+                Update Event
             </button>
         </form>
 
