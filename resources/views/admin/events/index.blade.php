@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl">
-            Manajemen Konser
+            Manajemen Event
         </h2>
     </x-slot>
 
@@ -15,7 +15,7 @@
 
         <a href="{{ route('admin.events.create') }}"
            class="bg-blue-600 text-white px-4 py-2 rounded">
-            Tambah Konser
+            Tambah Event
         </a>
 
         <div class="overflow-x-auto mt-6 bg-white p-4 rounded shadow">
@@ -24,7 +24,7 @@
                 <thead>
                     <tr class="border-b">
                         <th class="p-3">Poster</th>
-                        <th class="p-3">Nama Konser</th>
+                        <th class="p-3">Nama Event</th>
                         <th class="p-3">Kategori</th>
                         <th class="p-3">Harga</th>
                         <th class="p-3">Aksi</th>
