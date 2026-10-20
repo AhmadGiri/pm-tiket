@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl">
-            Tambah Konser
+            Tambah Event
         </h2>
     </x-slot>
 
@@ -16,7 +16,7 @@
             @csrf
 
             <div>
-                <label>Nama Konser</label>
+                <label>Nama Event</label>
                 <input
                     type="text"
                     name="title"
@@ -60,7 +60,7 @@
             </div>
 
             <div>
-                <label>Poster Konser</label>
+                <label>Poster Event</label>
                 <input
                     type="file"
                     name="image"
@@ -73,7 +73,7 @@
                 type="submit"
                 class="bg-blue-600 text-white px-4 py-2 rounded"
             >
-                Simpan Konser
+                Simpan Event
             </button>
         </form>
 
